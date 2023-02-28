@@ -11,6 +11,7 @@ html {
 
 body {
     margin: 0px;
+    background-color: #0d1117;
 }
 
   .container {
@@ -46,9 +47,10 @@ body {
     .author {
         background-color: rgba(0, 0, 0, .4);
         height: 5vh;
-        margin-top: -19px;
+        margin-top: -17px;
     }
     .author-pic {
+        font-family: 'Roboto', sans-serif;
         color: rgb(255, 255, 255);
         font-size: 1.1rem;
         text-align: end;
@@ -114,9 +116,6 @@ body {
     outline: none;
     border: 2px solid rgb(255, 0, 255);
   }
-  input:invalid:focus {
-    border: 2px solid rgb(255, 51, 51);
-  }
   input:valid:focus {
     border: 2px solid rgb(8, 247, 254);
   }
@@ -159,12 +158,61 @@ body {
 
       .left_side {
         height: 100vh;
-        width:70vw;
+        width:41vw;
         object-fit: cover;
         background-size:cover;
+      }
+      .logo_bar {
+        margin-top: 225px;  
+    }
+      .author {
+        margin-top: 640px;
+        background-color: rgba(0, 0, 0, 0);
+        margin-right: -15px;
       }
 
       .right_side {
         height: 100vh;
+        width: 59vw;
+      }
+      .intro_header {
+        margin-top: 180px;
+        margin-bottom: 60px;
+      }
+      h2 {
+        font-family: 'Gloock', serif;
+        text-align: left;
+        font-size: 1.4rem;
+      }
+      .form-title {
+        margin-left: 45px;
+      }
+      .mq-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto 20px;
+      }
+      .row {
+        align-items: start;
+      }
+      input {
+        width: 25vw;
+        text-align: start;
+      }
+      .button {
+        align-items: start;
+        margin-left: 67px;
+      }
+      .message {
+        margin-left: 63px;
+      }
+      .button {
+        margin-top: 30px;
+      }
+      p {
+        font-size: 1.1rem;
+        margin-top: 50px;
+        margin-left: 5px;
       }
   }  
