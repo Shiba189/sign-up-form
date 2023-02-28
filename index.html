@@ -44,7 +44,7 @@
                     <label for="email">EMAIL</label>
                     <input type="email" id="email" name="email" required>
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone-num">
+                    <input type="tel" id="phone" name="phone-num" min="9" pattern='[0-9]{10}'>
                 </div>
                 <div class="row">
                     <label for="password">PASSWORD</label>
@@ -52,6 +52,7 @@
                     <label for="confirm-password">CONFIRM PASSWORD</label>
                     <input type="password" id="confirm-password" name="confirm-password" required>
                 </div>
+                <span class="message"></span>
             </div>
             <div class="button">
                 <button type="submit">Create Account</button>
